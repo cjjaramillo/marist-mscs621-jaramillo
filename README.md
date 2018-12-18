@@ -58,7 +58,7 @@ and verify.
 ## Sign into your IBM Cloud account
  * In the Catalog create a Watson Assistant instance 
  * Copy the API Credentials under the **Manage** tab as you will need to reference this later
- ![Watson](images/watsoninstance.png)
+ ![Watson](./images/watsoninstance.PNG)
  * Go into your instance and **Add Skill**
  * Click on import skill and navigate in your host machine to *<project root>/training/bank_simple_workspace.json* and select **Add Everything**
  * Select the option to now add your skill to an Assistant
@@ -97,8 +97,8 @@ Run locally on port 3000
 ```
 ## Deploy to Heroku
 First, add your variables to your Heroku account
-![Reveal](images/revealvars.png)
-![Config Vars](images/configvars.png)
+![Reveal](./images/revealvars.PNG)
+![Config Vars](./images/configvars.PNG)
 
 Then deploy to Heroku
 ```bash
@@ -117,4 +117,4 @@ Then deploy to Heroku
 ## You should now be able to view your application at https://<heroku project name>.herokuapp.com
 
 # Architecture
-![Project Info](images/projectArchitecture.png)
+![Project Info](./images/projectArchitecture.png)
