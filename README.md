@@ -97,7 +97,10 @@ Run locally on port 3000
 ```
 ## Deploy to Heroku
 First, add your variables to your Heroku account
+1. Click Reveal Config Vars
 ![Reveal](./images/revealvars.PNG)
+
+2. Add the Vars you used in the *.env* file you created
 ![Config Vars](./images/configvars.PNG)
 
 Then deploy to Heroku
