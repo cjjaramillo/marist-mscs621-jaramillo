@@ -96,11 +96,10 @@ Run locally on port 3000
     $ docker run -it -p 3000:3000 --rm --name <instance> <image>
 ```
 ## Deploy to Heroku
-First, add your variables to your Heroku account
-1. Click Reveal Config Vars
+First, add your variables to your Heroku account -- Click Reveal Config Vars
 ![Reveal](./images/revealvars.PNG)
 
-2. Add the Vars you used in the *.env* file you created
+Add the Vars you used in the *.env* file you created
 ![Config Vars](./images/configvars.PNG)
 
 Then deploy to Heroku
@@ -117,7 +116,7 @@ Then deploy to Heroku
 	$ git commit -am "send to Heroku"
 	$ git push Heroku master
 ```
-## You should now be able to view your application at https://<heroku project name>.herokuapp.com
+## You should now be able to view your application at https://(heroku project name).herokuapp.com
 
 # Architecture
 ![Project Info](./images/projectArchitecture.png)
